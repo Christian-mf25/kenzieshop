@@ -98,3 +98,10 @@ const initialState = [
 		id: 24, name: 'PARAFUSO BASE INDEPENDENT PHILLIPS 1" RED/BLK', image: parafusoIdependent, type: "parafuso de base", price: 39.99
 	}
 ]
+
+const productsReducer = (state = initialState, action) =>{
+	console.log("PRODUCTS", action)
+	return state
+}
+
+export default productsReducer
