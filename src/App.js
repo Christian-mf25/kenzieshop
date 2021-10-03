@@ -1,15 +1,14 @@
 import "./App.css"
-import shapeChaze from "./assets/shape-chaze.jpg"
-
+import Home from "./Pages/Home"
 
 function App() {
   return (
     <div className="App">
-			<h1>Trick or Trickya</h1>
-
-      <img src={shapeChaze} />
+			<h1>Trick or Trick</h1>
+			<Home/>
     </div>
-  );
+  )
 }
+// console.log(cart.filter(itemFilter => itemFilter.id === itemMap.id).length)
 
-export default App;
+export default App

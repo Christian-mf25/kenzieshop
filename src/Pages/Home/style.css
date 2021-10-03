@@ -1,0 +1,17 @@
+.home{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.all_products{
+	background-color: antiquewhite;
+	width: 50vw;
+
+}
+
+.cart_products{
+background-color: aquamarine;
+width: 50vw;
+}
