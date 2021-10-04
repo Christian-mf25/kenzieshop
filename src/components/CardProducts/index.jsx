@@ -7,17 +7,12 @@ const CardProducts = ({ product, remove = false }) => {
 
 	const dispatch = useDispatch()
 
-	const { id, name, image, type, price, chave } = product
+	const { id, name, image, type, price} = product
 
 
 	return (
 		<li
 			className="product_list">
-
-			<h3
-				className="product_name">
-				{chave}
-			</h3>
 
 			<img
 				className="product_image"
@@ -25,27 +20,35 @@ const CardProducts = ({ product, remove = false }) => {
 				alt={name}
 			/>
 
+			<h3
+				className="product_name">
+				{name}
+			</h3>
+			
 			<p
 				className="product_price">
 				{`R$ ${price.toString().replace(".", ",")}`}
 			</p>
-			{
-				remove ? (
-					<Button
-						variant="outlined"
-						color="inherit"
-						onClick={() => dispatch(removeFromCartThunk(id))} >
-						Remover item
-					</Button>
-				) : (
-					<Button
-						color="inherit"
-						variant="outlined"
-						onClick={() => dispatch(addCartThunk(product))}>
-						Adicionar ao carrinho
-					</Button>
-				)
-			}
+
+			<div className="button_size">
+				{
+					remove ? (
+						<Button
+							variant="outlined"
+							color="inherit"
+							onClick={() => dispatch(removeFromCartThunk(id))} >
+							Remover
+						</Button>
+					) : (
+						<Button
+							color="inherit"
+							variant="outlined"
+							onClick={() => dispatch(addCartThunk(product))}>
+							Comprar
+						</Button>
+					)
+				}
+			</div>
 
 		</li>
 	)

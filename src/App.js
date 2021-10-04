@@ -1,14 +1,13 @@
-import "./App.css"
 import Home from "./Pages/Home"
+import Menu from "./components/Menu"
+import "./App.css"
 
 function App() {
-  return (
-    <div className="App">
-			<h1>Trick or Trick</h1>
-			<Home/>
-    </div>
-  )
+	return (
+		<div className="App">
+			<Home />
+		</div>
+	)
 }
-// console.log(cart.filter(itemFilter => itemFilter.id === itemMap.id).length)
 
 export default App

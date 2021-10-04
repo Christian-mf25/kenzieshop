@@ -4,11 +4,6 @@ export const addCartThunk = (product) => {
 
 	return (dispatch) => {
 
-		// const list = JSON.parse(localStorage.getItem("cart")) || []
-		// list.push(product)
-		// localStorage.setItem("cart", JSON.stringify(list))
-		// dispatch(addCart(product))
-
 		const list = JSON.parse(localStorage.getItem("cart")) || []
 		list.push(product)
 		console.log(list)
@@ -23,7 +18,7 @@ export const removeFromCartThunk = (id) => (dispatch, getStore) => {
 
 	const list = cart
 	const indexToRemove = list.findIndex(item => item.id === id)
-	/* const removeItem =  */list.splice(indexToRemove, 1)
+	const removeItem = list.splice(indexToRemove, 1)
 
 	localStorage.setItem("cart", JSON.stringify(list))
 	dispatch(removeFromCart(list))

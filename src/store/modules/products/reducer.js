@@ -27,166 +27,166 @@ import parafusoIdependent from "../../../assets/parafuso_independent.jpg"
 const initialState = [
 	{
 		id: 1,
-		name: "SHAPE CHAZE - SERIE MELLOW - PRO MODEL PATRICK VIDAL - 31,5 X 8.0",
+		name: "Shape Chaze - Serie Mellow",
 		image: shapeChaze,
 		type: "shape",
 		price: 339.90
 	},
 	{
 		id: 2,
-		name: "SHAPE CHILD MARFIM JAPAN SKULL 8.0",
+		name: "Shape Child - Marfim Japan Skull",
 		image: shapeJapanSkull,
 		type: "shape", price: 129.99
 	},
 	{
-		id: 3, name: "SHAPE FLIP HKD 8",
+		id: 3, name: "Shape Flip - HKD",
 		image: shapeFlip,
 		type: "shape",
 		price: 534.99
 	},
 	{
 		id: 4,
-		name: 'Shape Santa Cruz PowerLyte Gremlin Patrol White 8.5"',
+		name: 'Shape Santa Cruz - PowerLyte Gremlin',
 		image: shapeSantaCruzPowerlyte,
 		type: "shape",
 		price: 229.90
 	},
 	{
 		id: 5,
-		name: 'SHAPE ZERO THOMAS OCTO 8"',
+		name: 'Shape Zero - Thomas Octo',
 		image: shapeOcto,
 		type: "shape",
 		price: 279.90
 	},
 	{
 		id: 6,
-		name: "SHAPE ZERO 7.75 ALLIE DEATH GRIPS MULTI",
+		name: "Shape Zero - Allie Death Grips Mult",
 		image: shapeAllie,
 		type: "shape",
 		price: 299.99
 	},
 	{
 		id: 7,
-		name: "AMORTECEDOR MOOG BARREL 90A - AMARELO",
+		name: "Amortecedor MOOG - Barrel 90A",
 		image: amortecedorMoog,
 		type: "amortecedor",
 		price: 79.99
 	},
 	{
 		id: 8,
-		name: "AMORTECEDOR INDEPENDENT CONICAL MED 90A",
+		name: "Amortecedor Independent - Conical 90A",
 		image: amortecedorIndependent,
 		type: "amortecedor",
 		price: 89.99
 	},
 	{
 		id: 9,
-		name: "LIXA HONDAR - SERIE FLORAL ÚNICA",
+		name: "Lixa Hondar - Serie Floral",
 		image: lixaHondar,
 		type: "lixa",
 		price: 84.90
 	},
 	{
 		id: 10,
-		name: "LIXA GRIZZLY TIE DYE",
+		name: "Lixa Grizzly - Tie Dye",
 		image: lixaGrizzlyTieDye,
 		type: "lixa",
 		price: 74.90
 	},
 	{
 		id: 11,
-		name: "LIXA GRIZZLY MSA RED 9 X 33",
+		name: "Lixa Grizzly - MSA",
 		image: lixaGrizzlyMSA,
 		type: "lixa",
 		price: 89.99
 	},
 	{
 		id: 12,
-		name: "Truck Thunder 149mm Hollow Lights Original Thunder",
+		name: "Truck Thunder - Hollow Lights Original Thunder",
 		image: truckThunder,
 		type: "truck",
 		price: 549.99
 	},
 	{
 		id: 13,
-		name: "TRUCK INDEPENDENT PRO MODEL STEVE CABALLERO STAGE 11-159MM",
+		name: "Truck Independent - Steve Caballero",
 		image: truckIndependentCaballero,
 		type: "truck",
 		price: 998.00
 	},
 	{
 		id: 14,
-		name: "TRUCK METALLUM 129 SILVER PRETO",
+		name: "Truck Metallum - Silver Preto",
 		image: truckMetallum,
 		type: "truck",
 		price: 144.99
 	},
 	{
 		id: 15,
-		name: "RODA BLACK SHEEP 55MM",
+		name: "Roda Black Sheep - 55mm",
 		image: rodaBlackSheep,
 		type: "roda",
 		price: 99.90
 	},
 	{
 		id: 16,
-		name: "RODA SPITFIRE BIGHEAD DISORDER 56MM",
+		name: "Roda SpitFire - Bighead Disorder 56mm",
 		image: rodaSpitFireBigHead,
 		type: "roda",
 		price: 159.90
 	},
 	{
 		id: 17,
-		name: "RODA JUICE - 65MM - 80A - LARANJA",
+		name: "Roda Juice - 65mm",
 		image: rodaJuiceHondar,
 		type: "roda",
 		price: 209.99
 	},
 	{
 		id: 18,
-		name: "Roda Spitfire Formula Four Classics Miles Silvas 53mm 101Du",
+		name: "Roda Spitfire - Miles Silvas 53mm",
 		image: rodaSpitfireFormula,
 		type: "roda",
 		price: 399.99
 	},
 	{
 		id: 19,
-		name: "ROLAMENTO REDS BONES",
+		name: "Rolamento - Reds Bones",
 		image: rolamentoRedBones,
 		type: "rolamento",
 		price: 199.99
 	},
 	{
 		id: 20,
-		name: "Rolamentos Bones Swiss Ceramics Longboard E Skate",
+		name: "Rolamentos - Bones Swiss Ceramics",
 		image: rolamentoRedSwiss,
 		type: "rolamento",
 		price: 686.59
 	},
 	{
 		id: 21,
-		name: "Rolamento Skate Flip Skateboards Hkd Abec 7",
+		name: "Rolamento - Flip Abec 7",
 		image: rolamentoFlip,
 		type: "rolamento",
 		price: 116.90
 	},
 	{
 		id: 22,
-		name: 'Parafuso de Base Pig Allen 7/8"',
+		name: 'Parafuso de Base - Pig Allen 7/8"',
 		image: parafusoPigWheels,
 		type: "parafuso de base",
 		price: 20.81
 	},
 	{
 		id: 23,
-		name: "PARAFUSO CHAZE - 2,5MM STREET - DOURADO",
+		name: "Parafuso de Base - Chaze 2,5MM",
 		image: parafusoChaze,
 		type: "parafuso de base",
 		price: 49.99
 	},
 	{
 		id: 24,
-		name: 'PARAFUSO BASE INDEPENDENT PHILLIPS 1" RED/BLK',
+		name: 'Parafuso de Base - Independent Phillips 1"',
 		image: parafusoIdependent,
 		type: "parafuso de base",
 		price: 39.99

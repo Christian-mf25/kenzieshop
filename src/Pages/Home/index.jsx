@@ -1,18 +1,24 @@
-import Cart from "../../components/Cart"
 import Products from "../../components/Products"
-import "./style.css"
+import Cart from "../../components/Cart"
+import Menu from "../../components/Menu"
+import { useState } from "react"
 
 const Home = () => {
 
-	return (
-		<section className="home">
-			<div className="all_products">
-				<Products />
-			</div>
+	const [showCart, setShowCart] = useState(false)
+	const handleShowCart = () => setShowCart(!showCart)
 
-			<div className="cart_products">
-				<Cart />
-			</div>
+	return (
+		<section>
+			<Menu
+				handleShowCart={handleShowCart}
+				style={{ width: "100vw" }}
+			/>
+
+			<Products showCart={showCart} />
+
+			<Cart showCart={showCart} />
+
 		</section>
 	)
 }

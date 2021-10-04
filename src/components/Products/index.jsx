@@ -1,17 +1,19 @@
 import { useSelector } from "react-redux"
 import CardProducts from "../CardProducts"
 
-const Products = () => {
+const Products = ({ showCart }) => {
 
 	const products = useSelector(store => store.products)
 
 	return (
 		<section>
-			<ul>
+			<ul className="all_products_list" >
 				{
-					products.map((item, index) => (
-						<CardProducts key={index} product={item} />
-					))
+					!showCart && (
+						products.map((item, index) => (
+							<CardProducts key={index} product={item} />
+						))
+					)
 				}
 			</ul>
 		</section>
